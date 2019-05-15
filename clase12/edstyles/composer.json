@@ -1,0 +1,21 @@
+{
+  "name": "danielromeroauk/edstyles",
+  "description": "Tienda desarrollada como proyecto final del curso PHP desde cero en Escuela Digital.",
+  "authors": [
+    {
+      "name": "Daniel Guillermo Romero Gelvez",
+      "email": "danielromeroauk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/database": "5.2.21",
+    "phpmailer/phpmailer": "5.2.14",
+    "gregwar/captcha": "1.1.1"
+  },
+  "autoload" : {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
